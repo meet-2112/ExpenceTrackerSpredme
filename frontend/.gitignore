@@ -1,0 +1,83 @@
+# ==============================
+# BACKEND
+# ==============================
+
+backend/node_modules/
+backend/.env
+backend/npm-debug.log
+
+
+# ==============================
+# FRONTEND - ANGULAR
+# ==============================
+
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+frontend/out-tsc/
+frontend/bazel-out/
+
+frontend/npm-debug.log
+frontend/yarn-error.log
+
+
+# ==============================
+# ENVIRONMENT FILES
+# ==============================
+
+.env
+.env.*
+!.env.example
+
+
+# ==============================
+# IDEs / EDITORS
+# ==============================
+
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/mcp.json
+
+.history/
+
+
+# ==============================
+# LOGS / CACHE
+# ==============================
+
+*.log
+.tmp/
+tmp/
+coverage/
+.sass-cache/
+.angular/cache/
+
+
+# ==============================
+# SYSTEM FILES
+# ==============================
+
+.DS_Store
+Thumbs.db
+
+
+# ==============================
+# OTHER
+# ==============================
+
+/connect.lock
+/libpeerconnection.log
+testem.log
+/typings
+__screenshots__/

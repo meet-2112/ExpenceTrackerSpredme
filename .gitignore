@@ -1,0 +1,32 @@
+# Backend
+backend/node_modules/
+backend/.env
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+frontend/out-tsc/
+
+# Environment
+.env
+.env.*
+
+# Logs
+*.log
+npm-debug.log
+yarn-error.log
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cache
+coverage/
+.history/
+
+atlas-credentials.env
